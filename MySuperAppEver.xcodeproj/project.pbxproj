@@ -14,6 +14,23 @@
 		E1244D712A6AE2E900531D3B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1244D6C2A6AE2E900531D3B /* MainView.swift */; };
 		E1244D742A6AEAB100531D3B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1244D732A6AEAB100531D3B /* ListView.swift */; };
 		E1244D7C2A6AEF6300531D3B /* MySuperAppEverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1244D7B2A6AEF6300531D3B /* MySuperAppEverUITests.swift */; };
+		E155C07C2A86182D00A97A30 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C07B2A86182D00A97A30 /* ODRManager.swift */; };
+		E155C07E2A861BB100A97A30 /* example-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E155C07D2A861BB100A97A30 /* example-video.mp4 */; settings = {ASSET_TAGS = ("example-video", ); }; };
+		E155C0802A861F0800A97A30 /* example-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155C07F2A861F0700A97A30 /* example-image.jpg */; settings = {ASSET_TAGS = ("example-image", ); }; };
+		E155C0C62A862B1F00A97A30 /* MySuperAppEverClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0C52A862B1F00A97A30 /* MySuperAppEverClipApp.swift */; };
+		E155C0C82A862B1F00A97A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0C72A862B1F00A97A30 /* ContentView.swift */; };
+		E155C0CA2A862B2100A97A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E155C0C92A862B2100A97A30 /* Assets.xcassets */; };
+		E155C0CD2A862B2100A97A30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E155C0CC2A862B2100A97A30 /* Preview Assets.xcassets */; };
+		E155C0D22A862B2100A97A30 /* MySuperAppEverClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = E155C0C32A862B1F00A97A30 /* MySuperAppEverClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E155C0D62A862B2A00A97A30 /* ODRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C07B2A86182D00A97A30 /* ODRManager.swift */; };
+		E155C0DA2A862BD600A97A30 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0D92A862BD600A97A30 /* AVPlayerView.swift */; };
+		E155C0DB2A862BDA00A97A30 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0D92A862BD600A97A30 /* AVPlayerView.swift */; };
+		E155C0DD2A86337D00A97A30 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0DC2A86337D00A97A30 /* FileDownloader.swift */; };
+		E155C0DE2A86338400A97A30 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0DC2A86337D00A97A30 /* FileDownloader.swift */; };
+		E155C0E02A86458500A97A30 /* FileOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0DF2A86458500A97A30 /* FileOrganizer.swift */; };
+		E155C0E12A86458900A97A30 /* FileOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0DF2A86458500A97A30 /* FileOrganizer.swift */; };
+		E155C0E32A8653B200A97A30 /* WButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0E22A8653B200A97A30 /* WButton.swift */; };
+		E155C0E42A86544300A97A30 /* WButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155C0E22A8653B200A97A30 /* WButton.swift */; };
 		E1F04E082A6AD070001A567C /* MySuperAppEverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F04E072A6AD070001A567C /* MySuperAppEverTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +42,13 @@
 			remoteGlobalIDString = E1F04DF22A6AD06E001A567C;
 			remoteInfo = MySuperAppEver;
 		};
+		E155C0D02A862B2100A97A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1F04DEB2A6AD06E001A567C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E155C0C22A862B1F00A97A30;
+			remoteInfo = MySuperAppEverClip;
+		};
 		E1F04E042A6AD070001A567C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E1F04DEB2A6AD06E001A567C /* Project object */;
@@ -33,6 +57,20 @@
 			remoteInfo = MySuperApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E155C0AE2A86291E00A97A30 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				E155C0D22A862B2100A97A30 /* MySuperAppEverClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E110A2B62A6AFF1D00B50B43 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
@@ -47,6 +85,21 @@
 		E1244D732A6AEAB100531D3B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		E1244D792A6AEF6300531D3B /* MySuperAppEverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySuperAppEverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1244D7B2A6AEF6300531D3B /* MySuperAppEverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySuperAppEverUITests.swift; sourceTree = "<group>"; };
+		E155C07B2A86182D00A97A30 /* ODRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODRManager.swift; sourceTree = "<group>"; };
+		E155C07D2A861BB100A97A30 /* example-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "example-video.mp4"; sourceTree = "<group>"; };
+		E155C07F2A861F0700A97A30 /* example-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-image.jpg"; sourceTree = "<group>"; };
+		E155C0C32A862B1F00A97A30 /* MySuperAppEverClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySuperAppEverClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155C0C52A862B1F00A97A30 /* MySuperAppEverClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySuperAppEverClipApp.swift; sourceTree = "<group>"; };
+		E155C0C72A862B1F00A97A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E155C0C92A862B2100A97A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E155C0CC2A862B2100A97A30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E155C0CE2A862B2100A97A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E155C0CF2A862B2100A97A30 /* MySuperAppEverClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySuperAppEverClip.entitlements; sourceTree = "<group>"; };
+		E155C0D92A862BD600A97A30 /* AVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		E155C0DC2A86337D00A97A30 /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		E155C0DF2A86458500A97A30 /* FileOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOrganizer.swift; sourceTree = "<group>"; };
+		E155C0E22A8653B200A97A30 /* WButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WButton.swift; sourceTree = "<group>"; };
+		E155C0E52A865BA300A97A30 /* MySuperAppEver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySuperAppEver.entitlements; sourceTree = "<group>"; };
 		E1F04DF32A6AD06E001A567C /* MySuperAppEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySuperAppEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F04E032A6AD070001A567C /* MySuperAppEverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySuperAppEverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F04E072A6AD070001A567C /* MySuperAppEverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySuperAppEverTests.swift; sourceTree = "<group>"; };
@@ -54,6 +107,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		E1244D762A6AEF6300531D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155C0C02A862B1F00A97A30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,10 +150,18 @@
 		E1244D662A6AE2E900531D3B /* MySuperAppEver */ = {
 			isa = PBXGroup;
 			children = (
+				E155C0E52A865BA300A97A30 /* MySuperAppEver.entitlements */,
 				E1244D722A6AE72900531D3B /* Info.plist */,
 				E1244D672A6AE2E900531D3B /* MySuperAppAppEver.swift */,
+				E155C07D2A861BB100A97A30 /* example-video.mp4 */,
+				E155C07F2A861F0700A97A30 /* example-image.jpg */,
 				E1244D6C2A6AE2E900531D3B /* MainView.swift */,
+				E155C0E22A8653B200A97A30 /* WButton.swift */,
+				E155C0D92A862BD600A97A30 /* AVPlayerView.swift */,
+				E155C07B2A86182D00A97A30 /* ODRManager.swift */,
+				E155C0DF2A86458500A97A30 /* FileOrganizer.swift */,
 				E1244D732A6AEAB100531D3B /* ListView.swift */,
+				E155C0DC2A86337D00A97A30 /* FileDownloader.swift */,
 				E1244D682A6AE2E900531D3B /* Assets.xcassets */,
 				E1244D692A6AE2E900531D3B /* ServiceFactory.swift */,
 				E1244D6A2A6AE2E900531D3B /* Preview Content */,
@@ -117,6 +185,34 @@
 			path = MySuperAppEverUITests;
 			sourceTree = "<group>";
 		};
+		E155C0B52A862A1300A97A30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E155C0C42A862B1F00A97A30 /* MySuperAppEverClip */ = {
+			isa = PBXGroup;
+			children = (
+				E155C0C52A862B1F00A97A30 /* MySuperAppEverClipApp.swift */,
+				E155C0C72A862B1F00A97A30 /* ContentView.swift */,
+				E155C0C92A862B2100A97A30 /* Assets.xcassets */,
+				E155C0CE2A862B2100A97A30 /* Info.plist */,
+				E155C0CF2A862B2100A97A30 /* MySuperAppEverClip.entitlements */,
+				E155C0CB2A862B2100A97A30 /* Preview Content */,
+			);
+			path = MySuperAppEverClip;
+			sourceTree = "<group>";
+		};
+		E155C0CB2A862B2100A97A30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E155C0CC2A862B2100A97A30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		E1F04DEA2A6AD06E001A567C = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +220,9 @@
 				E1244D662A6AE2E900531D3B /* MySuperAppEver */,
 				E1F04E062A6AD070001A567C /* MySuperAppEverTests */,
 				E1244D7A2A6AEF6300531D3B /* MySuperAppEverUITests */,
+				E155C0C42A862B1F00A97A30 /* MySuperAppEverClip */,
 				E1F04DF42A6AD06E001A567C /* Products */,
+				E155C0B52A862A1300A97A30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +232,7 @@
 				E1F04DF32A6AD06E001A567C /* MySuperAppEver.app */,
 				E1F04E032A6AD070001A567C /* MySuperAppEverTests.xctest */,
 				E1244D792A6AEF6300531D3B /* MySuperAppEverUITests.xctest */,
+				E155C0C32A862B1F00A97A30 /* MySuperAppEverClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +266,23 @@
 			productReference = E1244D792A6AEF6300531D3B /* MySuperAppEverUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E155C0C22A862B1F00A97A30 /* MySuperAppEverClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155C0D32A862B2100A97A30 /* Build configuration list for PBXNativeTarget "MySuperAppEverClip" */;
+			buildPhases = (
+				E155C0BF2A862B1F00A97A30 /* Sources */,
+				E155C0C02A862B1F00A97A30 /* Frameworks */,
+				E155C0C12A862B1F00A97A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySuperAppEverClip;
+			productName = MySuperAppEverClip;
+			productReference = E155C0C32A862B1F00A97A30 /* MySuperAppEverClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		E1F04DF22A6AD06E001A567C /* MySuperAppEver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1F04E172A6AD070001A567C /* Build configuration list for PBXNativeTarget "MySuperAppEver" */;
@@ -174,10 +290,12 @@
 				E1F04DEF2A6AD06E001A567C /* Sources */,
 				E1F04DF02A6AD06E001A567C /* Frameworks */,
 				E1F04DF12A6AD06E001A567C /* Resources */,
+				E155C0AE2A86291E00A97A30 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E155C0D12A862B2100A97A30 /* PBXTargetDependency */,
 			);
 			name = MySuperAppEver;
 			productName = MySuperApp;
@@ -209,12 +327,19 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"example-image",
+					"example-video",
+				);
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					E1244D782A6AEF6300531D3B = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = E1F04DF22A6AD06E001A567C;
+					};
+					E155C0C22A862B1F00A97A30 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 					E1F04DF22A6AD06E001A567C = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -241,6 +366,7 @@
 				E1F04DF22A6AD06E001A567C /* MySuperAppEver */,
 				E1F04E022A6AD070001A567C /* MySuperAppEverTests */,
 				E1244D782A6AEF6300531D3B /* MySuperAppEverUITests */,
+				E155C0C22A862B1F00A97A30 /* MySuperAppEverClip */,
 			);
 		};
 /* End PBXProject section */
@@ -253,12 +379,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E155C0C12A862B1F00A97A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155C0CD2A862B2100A97A30 /* Preview Assets.xcassets in Resources */,
+				E155C0CA2A862B2100A97A30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1F04DF12A6AD06E001A567C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E155C07E2A861BB100A97A30 /* example-video.mp4 in Resources */,
 				E1244D702A6AE2E900531D3B /* Preview Assets.xcassets in Resources */,
 				E1244D6E2A6AE2E900531D3B /* Assets.xcassets in Resources */,
+				E155C0802A861F0800A97A30 /* example-image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +417,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E155C0BF2A862B1F00A97A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155C0DB2A862BDA00A97A30 /* AVPlayerView.swift in Sources */,
+				E155C0E42A86544300A97A30 /* WButton.swift in Sources */,
+				E155C0C82A862B1F00A97A30 /* ContentView.swift in Sources */,
+				E155C0C62A862B1F00A97A30 /* MySuperAppEverClipApp.swift in Sources */,
+				E155C0D62A862B2A00A97A30 /* ODRManager.swift in Sources */,
+				E155C0DE2A86338400A97A30 /* FileDownloader.swift in Sources */,
+				E155C0E12A86458900A97A30 /* FileOrganizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1F04DEF2A6AD06E001A567C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E155C0DA2A862BD600A97A30 /* AVPlayerView.swift in Sources */,
+				E155C0E32A8653B200A97A30 /* WButton.swift in Sources */,
 				E1244D742A6AEAB100531D3B /* ListView.swift in Sources */,
+				E155C0DD2A86337D00A97A30 /* FileDownloader.swift in Sources */,
+				E155C07C2A86182D00A97A30 /* ODRManager.swift in Sources */,
 				E1244D6F2A6AE2E900531D3B /* ServiceFactory.swift in Sources */,
 				E1244D6D2A6AE2E900531D3B /* MySuperAppAppEver.swift in Sources */,
 				E1244D712A6AE2E900531D3B /* MainView.swift in Sources */,
+				E155C0E02A86458500A97A30 /* FileOrganizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +462,11 @@
 			isa = PBXTargetDependency;
 			target = E1F04DF22A6AD06E001A567C /* MySuperAppEver */;
 			targetProxy = E1244D7F2A6AEF6300531D3B /* PBXContainerItemProxy */;
+		};
+		E155C0D12A862B2100A97A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E155C0C22A862B1F00A97A30 /* MySuperAppEverClip */;
+			targetProxy = E155C0D02A862B2100A97A30 /* PBXContainerItemProxy */;
 		};
 		E1F04E052A6AD070001A567C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -346,6 +507,70 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MySuperAppEver;
+			};
+			name = Release;
+		};
+		E155C0D42A862B2100A97A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MySuperAppEverClip/MySuperAppEverClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_ASSET_PATHS = "\"MySuperAppEverClip/Preview Content\"";
+				DEVELOPMENT_TEAM = FW3NJPMXS9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySuperAppEverClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySuperAppEver;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malikghani.MySuperAppEver.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E155C0D52A862B2100A97A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MySuperAppEverClip/MySuperAppEverClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
+				DEVELOPMENT_ASSET_PATHS = "\"MySuperAppEverClip/Preview Content\"";
+				DEVELOPMENT_TEAM = FW3NJPMXS9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MySuperAppEverClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MySuperAppEver;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malikghani.MySuperAppEver.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -466,10 +691,12 @@
 		E1F04E182A6AD070001A567C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MySuperAppEver/MySuperAppEver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_ASSET_PATHS = "\"MySuperAppEver/Preview Content\"";
 				DEVELOPMENT_TEAM = FW3NJPMXS9;
 				ENABLE_PREVIEWS = YES;
@@ -496,10 +723,12 @@
 		E1F04E192A6AD070001A567C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MySuperAppEver/MySuperAppEver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_ASSET_PATHS = "\"MySuperAppEver/Preview Content\"";
 				DEVELOPMENT_TEAM = FW3NJPMXS9;
 				ENABLE_PREVIEWS = YES;
@@ -571,6 +800,15 @@
 			buildConfigurations = (
 				E1244D822A6AEF6300531D3B /* Debug */,
 				E1244D832A6AEF6300531D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155C0D32A862B2100A97A30 /* Build configuration list for PBXNativeTarget "MySuperAppEverClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155C0D42A862B2100A97A30 /* Debug */,
+				E155C0D52A862B2100A97A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
